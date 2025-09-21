@@ -5,7 +5,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const ORG = "MohammadAObed";
 const REPO = "docs-config";
-const SITE_URL = "https://MohammadAObed";
+const SITE_URL = "https://mo-docs-config.netlify.app";
+const GITHUB_URL = `https://github.com/${ORG}/config`;
 
 const config: Config = {
   title: REPO,
@@ -62,7 +63,7 @@ const config: Config = {
         { type: "docSidebar", sidebarId: "tutorialSidebar", position: "left", label: "Docs" },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: `https://github.com/${ORG}`,
+          href: GITHUB_URL,
           label: "GitHub",
           position: "right",
         },
@@ -80,7 +81,7 @@ const config: Config = {
           title: "More",
           items: [
             { label: "Blog", to: "/blog" },
-            { label: "GitHub", href: `https://github.com/${ORG}` },
+            { label: "GitHub", href: GITHUB_URL },
           ],
         },
       ],

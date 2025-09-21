@@ -1,0 +1,10 @@
+{
+  "label": "App",
+  "position": 4,
+  "className": "top-divider",
+  "link": {
+    "type": "generated-index",
+    "title": "App",
+    "description": "All App Code"
+  }
+}

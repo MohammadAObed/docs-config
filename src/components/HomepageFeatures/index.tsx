@@ -9,21 +9,21 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Card 1",
+    title: "Centralized Configuration",
+    description: <>Keep all project settings in one place — linting, formatting, tsconfig, and more — to ensure consistency across repos.</>,
+  },
+  {
+    title: "Reusable & Scalable",
     description: (
-      <>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
+      <>
+        Easily share and extend configs for TypeScript, ESLint, Prettier, and build tools. Scale your projects without duplicating boilerplate.
+      </>
     ),
   },
   {
-    title: "Card 2",
+    title: "Developer Productivity",
     description: (
-      <>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
-    ),
-  },
-  {
-    title: "Card 3",
-    description: (
-      <>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
+      <>Save time with pre-built, opinionated defaults. Focus on writing features while the config package enforces standards automatically.</>
     ),
   },
 ];
@@ -31,9 +31,6 @@ const FeatureList: FeatureItem[] = [
 function Feature({ title, description }: FeatureItem) {
   return (
     <div className={styles.mx400}>
-      <div className="text--center">
-        <div className={styles.featureHidden}></div>
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
