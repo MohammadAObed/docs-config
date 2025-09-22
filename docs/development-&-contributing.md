@@ -1,6 +1,5 @@
 ---
-sidebar_position: 5
-sidebar_class_name: "top-divider"
+sidebar_class_name: "bottom-placed-1"
 ---
 
 # Development & Contributing

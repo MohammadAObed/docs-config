@@ -50,13 +50,12 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
     image: "img/social-card.png",
     navbar: {
       title: REPO,
       logo: {
-        alt: REPO + " logo",
+        alt: `${REPO} logo`,
         src: "img/logo.png",
       },
       items: [
@@ -101,6 +100,24 @@ const config: Config = {
       {
         hashed: true,
       } satisfies PluginOptions,
+    ],
+  ],
+  plugins: [
+    [
+      "docusaurus-plugin-typedoc",
+      {
+        entryPoints: ["../eslint.config.ts", "../prettier.config.js", "../tsup.config.js"],
+        entryPointStrategy: "expand",
+        tsconfig: "../tsconfig.json",
+        plugin: ["typedoc-plugin-markdown"],
+        out: "docs/app",
+        excludeExternals: true,
+        excludePrivate: true,
+        excludeProtected: true,
+        readme: "none",
+        cleanOutputDir: true,
+        exclude: ["../docs/**"],
+      },
     ],
   ],
 };
