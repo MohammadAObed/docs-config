@@ -24,7 +24,7 @@ This will add the package as a dev dependency.
 2. Open the installed package inside `node_modules/@mohammad_obed/config`.
 3. Copy the contents of `vscode.settings.json` into your project’s `.vscode/settings.json` file.
    - If `.vscode` folder does not exist in your project root, create it.
-   - Add `.vscode/settings.json` to `.gitignore` so it does not get pushed to your repo.
+   - Make Sure/Add `.vscode/` to `.gitignore` so it does not get pushed to your repo.
 
 This file ensures consistent ESLint and Prettier behavior across projects.
 

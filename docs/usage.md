@@ -72,3 +72,25 @@ To confirm the **Prettier** and **ESLint** extensions are reading configuration 
    - Temporarily add a rule in your project `eslint.config.ts` (e.g., `"no-console": "error"`).
    - Add a `console.log()` in code.
    - If VS Code flags it immediately, ESLint is using the shared config.
+
+---
+
+## Building & verifying bundles
+
+Build the current package with the shared [tsup](./app/tsup.config/index.md) configuration:
+
+```bash
+npx moc-build
+```
+
+If you have multiple packages, run the orchestrated build:
+
+```bash
+npx moc-build-all
+```
+
+When you opt into the optional `size-limit` config, validate the bundle budget right after building:
+
+```bash
+npx moc-size
+```

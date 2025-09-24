@@ -106,16 +106,21 @@ const config: Config = {
     [
       "docusaurus-plugin-typedoc",
       {
-        entryPoints: ["../eslint.config.ts", "../prettier.config.js", "../tsup.config.js"],
+        entryPoints: [
+          "../eslint.config.ts",
+          "../prettier.config.js",
+          "../tsup.config.js",
+          "../bin",
+        ],
         entryPointStrategy: "expand",
         tsconfig: "../tsconfig.json",
         plugin: ["typedoc-plugin-markdown"],
         out: "docs/app",
+        cleanOutputDir: false,
         excludeExternals: true,
         excludePrivate: true,
         excludeProtected: true,
         readme: "none",
-        cleanOutputDir: true,
         exclude: ["../docs/**"],
       },
     ],
