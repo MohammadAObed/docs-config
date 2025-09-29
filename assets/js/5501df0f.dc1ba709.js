@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_config=self.webpackChunkdocs_config||[]).push([[5904],{8096:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/docs-config/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
