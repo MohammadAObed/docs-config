@@ -2,7 +2,7 @@
 
 > `const` **default**: `Config`
 
-Defined in: [prettier.config.js:21](https://github.com/MohammadAObed/config/blob/1bf302eda0dd4bb4da2ae9c7dfbbb1ce84a7ad48/prettier.config.js#L21)
+Defined in: [prettier.config.js:21](https://github.com/MohammadAObed/config/blob/6e970d6665038ee2c3213da33400ad865a471404/prettier.config.js#L21)
 
 The only Prettier configuration to use in your project’s `package.json`.
 
