@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const ORG = "MohammadAObed";
 const REPO = "docs-config";
-const SITE_URL = "https://MohammadAObed.github.io";
+const SITE_URL = `https://${ORG}.github.io`;
 const GITHUB_URL = `https://github.com/${ORG}/config`;
 
 const config: Config = {
