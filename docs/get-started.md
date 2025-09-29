@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Get Started
 
-Welcome to **@mohammad_obed/config** — a unified package to standardize ESLint, TypeScript, and Prettier across projects, with small CLI helpers.
+Welcome temp to **@mohammad_obed/config** — a unified package to standardize ESLint, TypeScript, and Prettier across projects, with small CLI helpers.
 
 It's a one install with very small configuration, then you dont have to worry about the hell of configuring these tools again and again for every new project with too much boilerplate. Its the same config shared across all projects.
 
