@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 const ORG = "MohammadAObed";
 const REPO = "docs-config";
-const SITE_URL = "https://mo-docs-config.netlify.app";
+const SITE_URL = "https://MohammadAObed.github.io";
 const GITHUB_URL = `https://github.com/${ORG}/config`;
 
 const config: Config = {
@@ -16,9 +16,10 @@ const config: Config = {
     v4: true,
   },
   url: SITE_URL,
-  baseUrl: "/",
+  baseUrl: `/${REPO}/`,
   organizationName: ORG,
   projectName: REPO,
+  deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
