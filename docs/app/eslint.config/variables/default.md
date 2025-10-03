@@ -2,7 +2,7 @@
 
 > **default**: `ConfigArray`
 
-Defined in: [eslint.config.ts:42](https://github.com/MohammadAObed/config/blob/6e970d6665038ee2c3213da33400ad865a471404/eslint.config.ts#L42)
+Defined in: [eslint.config.ts:42](https://github.com/MohammadAObed/config/blob/0959a1c158f2051fc5e6ed358d3899d64d88dfc3/eslint.config.ts#L42)
 
 The only eslint configuration to import and use in your project’s `eslint.config.ts` file.
 

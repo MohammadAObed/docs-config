@@ -20,7 +20,7 @@ This will add the package as a dev dependency.
 
 ## 2. Initial configuration
 
-1. Make sure you have [**Prettier** & **ESLint**](https://mo-docs-common.netlify.app/docs/installations#install-vscode-extensions) extensions installed in VS Code.
+1. Make sure you have [**Prettier** & **ESLint**](https://mohammadaobed.github.io/docs-common/docs/installations#install-vscode-extensions) extensions installed in VS Code.
 2. Open the installed package inside `node_modules/@mohammad_obed/config`.
 3. Copy the contents of `vscode.settings.json` into your project’s `.vscode/settings.json` file.
    - If `.vscode` folder does not exist in your project root, create it.

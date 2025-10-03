@@ -10,7 +10,7 @@ This section describes how the package **@mohammad_obed/config** is built, how t
 
 ## 1. Cloning and setup
 
-[Clone](https://mo-docs-common.netlify.app/docs/guides/project-creation-common#clone-the-repository-in-vs-code-using-git-bash) the repo and install dependencies:
+[Clone](https://mohammadaobed.github.io/docs-common/docs/guides/project-creation-common#clone-the-repository-in-vs-code-using-git-bash) the repo and install dependencies:
 
 ```bash
 git clone <your-repo-url>

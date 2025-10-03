@@ -2,7 +2,7 @@
 
 > **default**(`options`): `Options` \| `Options`[] \| (`overrideOptions`) => `MaybePromise`\<`Options` \| `Options`[]\>
 
-Defined in: [tsup.config.js:30](https://github.com/MohammadAObed/config/blob/6e970d6665038ee2c3213da33400ad865a471404/tsup.config.js#L30)
+Defined in: [tsup.config.js:30](https://github.com/MohammadAObed/config/blob/0959a1c158f2051fc5e6ed358d3899d64d88dfc3/tsup.config.js#L30)
 
 The only tsup build configuration to import and use in your project’s `tsup.config.ts` file.
 

@@ -4,7 +4,7 @@
 
 Provides the recommended JSON settings to use in your project’s `.vscode/settings.json`.
 
-These settings integrate [ESLint and Prettier](http://mo-docs-common.netlify.app/docs/installations#install-vscode-extensions) extensions seamlessly for consistent formatting and linting.
+These settings integrate [ESLint and Prettier](https://mohammadaobed.github.io/docs-common/docs/installations#install-vscode-extensions) extensions seamlessly for consistent formatting and linting.
 
 ## Example
 
